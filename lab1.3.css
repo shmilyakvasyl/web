@@ -1,0 +1,41 @@
+.greed{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr ;
+    height: 1200px;   
+}
+.greed div:nth-child(1){
+    background-color: rgb(110, 255, 166);
+    grid-row: 1/-1;
+    border: 1px solid ;
+    border-radius: 5px;
+}
+.greed div:nth-child(2){
+    background-color:rgb(132, 253, 163);
+    grid-column-start:2 ;
+    grid-column-end: -1;
+    border: 1px solid ;
+    border-radius: 5px;
+}
+.greed div:nth-child(3){
+    background-color: rgb(255, 216, 214);
+    grid-column-start:2 ;
+    grid-column-end: -1;
+    border: 1px solid ;
+    border-radius: 5px;
+}
+.greed div:nth-child(4){
+    background-color:rgb(181, 102, 255);
+    grid-column-start:2 ;
+    grid-column-end: -1;
+    border: 1px solid ;
+    border-radius: 5px;
+}
+.greed div:nth-child(5){
+    background-color:rgb(219, 219, 219);
+    grid-column-start:2 ;
+    grid-column-end: -1;
+    border: 1px solid ;
+    border-radius: 5px;
+}
